@@ -1,0 +1,70 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mbovegomara\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start-api
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;c:\Program Files (x86)\Vector CANdb++ 3.1\Exec32;C:\Users\mbovegomara\AppData\Local\Programs\Python\Python310;C:\Program Files\nodejs\;C:\Users\mbovegomara\AppData\Local\Microsoft\WindowsApps;C:\Users\mbovegomara\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\react-flask-app\package.json: Unexpected token S in JSON at position 421
+      at JSON.parse (<anonymous>)
+      at C:\Users\mbovegomara\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\mbovegomara\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\mbovegomara\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "react-flask-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "start-api": "cd api && venv\Scripts\activate && flask run --no-debugger",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "proxy": "http://localhost:5000"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
